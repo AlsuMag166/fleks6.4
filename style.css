@@ -9,4 +9,18 @@
     padding: 10px;
     margin-bottom: 15px;
 }
-.child
+
+.child {
+    background: #6a9cff;
+    color: #fff;
+    width: 70px;
+    border-radius: 6px;
+}
+
+.row:nth-child(1) .child:nth-child(1) { height: 40px; }
+.row:nth-child(1) .child:nth-child(2) { height: 120px; }
+.row:nth-child(1) .child:nth-child(3) { height: 70px; }
+
+.row:nth-child(2) .child:nth-child(1) { height: 100px; }
+.row:nth-child(2) .child:nth-child(2) { height: 50px; }
+.row:nth-child(2) .child:nth-child(3) { height: 130px; }
