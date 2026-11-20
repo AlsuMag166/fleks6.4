@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 160px;
+    background: #eef;
+    border: 2px dashed #88f;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
